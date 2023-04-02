@@ -3,7 +3,7 @@ provide a primary way to calculate the radius of gyration of proteins basing on 
 as you know, the radius of gyration is defined as
 
 $$
-  rg=\frac{\Sigma{m_i(R_i-R_C)^{2}}}{\Sigma{m_i}}
+  rg^{2}=\frac{\Sigma{m_i(R_i-R_C)^{2}}}{\Sigma{m_i}}
 $$
 
 I provide a little file to calculate proteins' rg from their pdb file.There are also some pdb files as examples.
